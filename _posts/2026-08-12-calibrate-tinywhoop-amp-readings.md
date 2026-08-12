@@ -1,4 +1,14 @@
-```markdown
+---
+layout: post
+title: "Calibrate Tinywhoop Amp Readings"
+date: 2026-08-12
+categories:
+  - fpv
+tags:
+  - tinywhoop
+  - betafpv
+---
+
 # How to Calibrate the Current Scale in Betaflight for Accurate mAh Readings
 
 If you're flying a **BetaFPV Air 75** or another micro FPV quad and your OSD is showing incorrect battery warnings, calibrating the current scale in Betaflight may solve the problem.
