@@ -9,11 +9,10 @@ tags:
   - betafpv
 ---
 
-# How to Calibrate the Current Scale in Betaflight for Accurate mAh Readings
 
-If you're flying a **BetaFPV Air 75** or another micro FPV quad and your OSD is showing incorrect battery warnings, calibrating the current scale in Betaflight may solve the problem.
+If you're flying a **BetaFPV Air 75 II** or another micro FPV quad and your OSD is showing incorrect battery warnings, calibrating the current scale in Betaflight may solve the problem.
 
-I've been practicing with my BetaFPV Air 75 for about two months. Despite countless crashes, this little quad is still flying strong! Recently, however, I noticed something strange: even with a freshly charged battery, the OSD was already showing **"LANDING NOW."**
+I've been practicing with my BetaFPV Air 75 II for about two months. Despite countless crashes, this little quad is still flying strong! Recently, however, I noticed something strange: even with a freshly charged battery, the OSD was already showing **"LANDING NOW."**
 
 The problem turned out to be inaccurate voltage and current readings.
 
