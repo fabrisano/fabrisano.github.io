@@ -46,11 +46,11 @@ You'll need these **three numbers**:
 
 Start with a **fully charged battery**.
 
-Fly normally until the battery reaches approximately **3.3 V per cell**. Once you land, immediately check your OSD and write down the amount of mAh Betaflight says you used.
+Fly normally until the battery reaches approximately **3.3 V per cell**. Once you land, immediately check your OSD and write down the amount of mAh used.
 
 In my case:
 
-> **Betaflight mAh used: 232 mAh**
+> **OSD mAh used: 232 mAh**
 
 It's important to record the value immediately after landing so you have an accurate reading from that flight.
 
@@ -78,7 +78,7 @@ Find the **Current Scale** value and write it down.
 
 My original setting was:
 
-> **Current Scale: 750**
+> **Old Current Scale: 750**
 
 At this point, we have all three numbers needed for the calibration.
 
@@ -88,21 +88,21 @@ Now we can calculate the corrected current scale.
 
 The formula is:
 
-**New Current Scale = Old Current Scale × Actual mAh Used ÷ Betaflight mAh Used**
+**New Current Scale = Old Current Scale × (OSD mAh Used ÷ Charger mAh)**
 
 Using my numbers:
 
 - Old Current Scale = **750**  
-- Actual mAh used = **336 mAh**  
-- Betaflight reported = **232 mAh**  
+- Charger mAh = **336 mAh**  
+- OSD mAh Used = **232 mAh**  
 
 So:
 
-**New Current Scale = 750 × 336 ÷ 232**
+**New Current Scale = 750 × (232 ÷ 336)**
 
 This gives a new current-scale value of approximately:
 
-> **New Current Scale ≈ 1086**
+> **New Current Scale ≈ 518**
 
 The important thing is to use the actual values from **your own flight and charger** rather than copying my numbers.
 
@@ -112,13 +112,13 @@ Go back to the **Power & Battery** tab in Betaflight and replace your old curren
 
 For my setup, I changed the value from:
 
-**750 → approximately 1086**
+**750 → approximately 518**
 
 Click **Save** and you're ready to test the calibration.
 
 ## Testing the Calibration
 
-After updating the current scale, I took the Air 75 out for another flight.
+After updating the current scale, I took the Air 75 II out for another flight.
 
 The difference was immediately noticeable.
 
@@ -128,7 +128,7 @@ The current and mAh readings were now much closer to what I expected.
 
 ## Final Thoughts
 
-Calibrating the current scale completely solved the inaccurate battery-reading issue on my BetaFPV Air 75.
+Calibrating the current scale completely solved the inaccurate battery-reading issue on my BetaFPV Air 75 II.
 
 If you're experiencing problems such as:
 
@@ -145,6 +145,5 @@ Just remember that the exact calibration value will depend on your particular dr
 
 If this guide helped you, consider sharing it with another FPV pilot who might be dealing with the same problem.
 
-**Happy flying! 🚁**
-```
+
 
