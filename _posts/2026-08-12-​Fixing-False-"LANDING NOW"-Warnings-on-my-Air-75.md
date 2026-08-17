@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Calibrate Tinywhoop Amp Readings"
+title: "​Fixing False "LANDING NOW" Warnings on my Air 75!"
 date: 2026-08-12
 categories:
   - fpv
