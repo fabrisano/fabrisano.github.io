@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "​Fixing False Warnings on my Air 75"
+title: Fixing False Warnings on my Air 75
 date: 2026-08-12
 categories:
   - fpv
