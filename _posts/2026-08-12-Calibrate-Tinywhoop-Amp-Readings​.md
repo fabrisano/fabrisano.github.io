@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fixing False Warnings on my Air 75
+title: "Calibrate Tinywhoop Amp Readings"
 date: 2026-08-12
 categories:
   - fpv
@@ -8,6 +8,7 @@ tags:
   - tinywhoop
   - betafpv
 ---
+
 
 
 If you're flying a **BetaFPV Air 75 II** or another micro FPV quad and your OSD is showing incorrect battery warnings, calibrating the current scale in Betaflight may solve the problem.
